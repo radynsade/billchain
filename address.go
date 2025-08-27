@@ -16,3 +16,6 @@ const (
 	Base58TronMainnetVersion = 0x41
 	Base58TronTestnetVersion = 0x49
 )
+
+func main() {
+}
