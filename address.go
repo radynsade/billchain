@@ -1,7 +1,5 @@
 package main
 
-import "github.com/radynsade/billchain/encode"
-
 const (
 	Bech32BtcMainnetHrp = "bc"
 	Bech32BtcTestnetHrp = "tb"
@@ -20,5 +18,4 @@ const (
 )
 
 func main() {
-	encode.DecodeBech32("", encode.Bech32BitcoinOptions())
 }
